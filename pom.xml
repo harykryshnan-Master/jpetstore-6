@@ -23,7 +23,7 @@
     <groupId>org.mybatis</groupId>
     <artifactId>mybatis-parent</artifactId>
     <version>38</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.mybatis</groupId>
@@ -111,7 +111,7 @@
     <dependency>
       <groupId>jakarta.servlet.jsp</groupId>
       <artifactId>jakarta.servlet.jsp-api</artifactId>
-      <version>2.3.6</version>
+      <version>4.0.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -303,8 +303,8 @@
   <properties>
     <cargo.maven.containerId>tomcat${tomcat.major-version}x</cargo.maven.containerId>
     <cargo.maven.containerUrl>https://archive.apache.org/dist/tomcat/tomcat-${tomcat.major-version}/v${tomcat.version}/bin/apache-tomcat-${tomcat.version}.zip</cargo.maven.containerUrl>
-    <tomcat.major-version />
-    <tomcat.version />
+    <tomcat.major-version/>
+    <tomcat.version/>
 
     <surefire.version>3.0.0-M7</surefire.version>
     <cargo-maven3-plugin.version>1.10.9</cargo-maven3-plugin.version>
